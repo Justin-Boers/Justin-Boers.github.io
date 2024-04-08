@@ -1,0 +1,7 @@
+body { 
+    background-image: url(/img/thumb-1920-1083878.png);
+    background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

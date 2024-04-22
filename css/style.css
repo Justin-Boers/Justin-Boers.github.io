@@ -1,8 +1,15 @@
-body { 
-    background-image: url(/img/thumb-1920-1083878.png);
-    background-color: var(--background-color);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.background-image {
+    background-image: url('/img/thumb-1920-1083878.png');
+    background-size: cover; /* Achtergrondafbeelding past zich aan aan de grootte van het element */
+    background-position: center; /* Achtergrondafbeelding blijft gecentreerd */
+    height: 750px; /* Pas de hoogte aan zoals gewenst */
+    color: white; /* Tekstkleur aanpassen zodat deze leesbaar is op de afbeelding */
+
 }
+
+.about-me{
+    gap: 15px;
+}
+
+
 

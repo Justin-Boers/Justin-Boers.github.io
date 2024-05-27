@@ -7,51 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/pages/css/style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Justin portfolio</title>
+    <title>Justin Portfolio</title>
 </head>
 
-<body class="body1 bg-black">
-
-
-    
+<body class="bg-black m-0 p-0">
     <header>
-        <div class="container-fluid bg-dark">
+        <div class="container-fluid bg-black">
             <div class="row">
-                <div class="col">
-                </div>
+                <div class="col"></div>
                 <div class="col-5">
                     <span class="text-danger fs-1">Justin</span>
                     <span class="text-white fs-1">Boers</span>
                 </div>
                 <div class="col-5 d-flex flex-direction-row justify-content-center align-items-center fs-6">
-                    <a class="nav-link text-white" href="/index.html">Home</a>
+                    <button class="btn btn-primary bg-black" onclick="scrollToSection('section1')">About me</button>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="nav-link text-white" href="/html/about-me.html">About</a>
+                    <button class="btn btn-primary bg-black" onclick="scrollToSection('section2')">Projects</button>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="nav-link text-white" href="#">Projects</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <button class="btn btn-primary bg-black" onclick="scrollToSection('section3')">Contact</button>
                 </div>
                 <div class="col"></div>
             </div>
         </div>
     </header>
-    
-
 
 
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <div class="background-image text-center">
+                <div class="col-12 position-relative bg-custom">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
                         <h1>Justin Boers</h1>
-                        <p>Software develepor</p>
+                        <p>Software Developer</p>
                     </div>
                 </div>
             </div>
@@ -59,79 +51,155 @@
 
         <div class="container-fluid p-2">
             <div class="row">
-                <div class="col-12 p-5"></div>
+                <div class="col-12"></div>
             </div>
-
             <div class="row">
-                <div class="col-12 p-5"></div>
+                <div class="col-12"></div>
+            </div>
+        </div>
+
+        <section id="section1" class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white text-center">About Me</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col-2"></div>
+                <div class="col-4 text-white border border-white">
+                    <img src="" alt="Profile image" class="img-fluid">
+                </div>
+                <div class="col-4 text-white border border-white">
+                    <p>Who am I?</p>
+                    <p>My name is Justin Boers, I am 19 years old, and I am currently pursuing a Software Developer level 4 program.</p>
+                </div>
+                <div class="col-2"></div>
             </div>
         </div>
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-white text-center">About-me</h2>
+            <div class="row g-3">
+                <div class="col-2"></div>
+                <div class="col-4 text-white border border-white">
+                    <p>Education</p>
+                    <p>I started my schooling journey at the elementary level, attending Laurentiusschool in Delft. From there, I continued on to Delfland, a secondary vocational school located in Delft, where I began to focus on the technical aspect of education. This decision stemmed from my longstanding interest in this field, eventually leading me to enroll in the Software Developer Level 4 program that I am currently pursuing.</p>
                 </div>
+                <div class="col-4 text-white border border-white">
+                    <p>Work Experience</p>
+                    <p>I have gained a lot of work experience, ranging from working in the hospitality industry as a cook to being employed in various retail positions. This diversity of experiences has acquainted me with different work environments. My career began with a paper route, but I didn't continue it for long. Afterwards, I started working in supermarkets as a regular employee. Subsequently, I also worked in the hospitality industry and spent some time in the kitchen. During my school internship, I had the opportunity to work at my internship company, which appealed to me due to my preference for this field of work. Unfortunately, during this job, I had to perform various other tasks as well. Then, I got the opportunity to work elsewhere and return to a retail environment as an employee, which I also did.</p>
+                </div>
+                <div class="col-2"></div>
             </div>
         </div>
 
-        <div class="container-fluid about ">
-            <div class="about-me row">
-                <div class="col-2">
-                </div>
-                <div class="col-4 text-white border border-white">
-                    <img src="" alt="" srcset="">
-                </div>
-
-                
-                <div class="col-4 text-white border border-white">
-                    <p>Who am i? </p>
-
-                    <p>My name is Justin Boers, I am 19 years old, and I am currently pursuing a Software Developer
-                        level 4
-                        program.</p>
-                </div>
-                <div class="col-2">
-                </div>
+        <div class="container-fluid p-5">
+            <div class="row p-5">
+                <div class="col-12"></div>
+            </div>
+            <div class="row p-5">
+                <div class="col-12"></div>
             </div>
         </div>
 
         
+        <section id="section2" class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white text-center">Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <div class="container-fluid">
-            <div class="about-me row">
-                <div class="col-2">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4 text-white border border-white text-center">
+                    <p>Higher lower</p>
+                    <a href="">
+                        <img src="/img/higer lower.png" alt="" class="img-fluid">
+                    </a> 
                 </div>
-                <div class="col-4 text-white border border-white">
-                    <p>Educations </p>
-
-                    <p> I started my schooling journey at the elementary level, attending Laurentiusschool in Delft. From
-                        there, I continued on to Delfland, a secondary vocational school located in Delft, where I began to
-                        focus on the technical aspect of education. This decision stemmed from my longstanding interest in
-                        this field, eventually leading me to enroll in the Software Developer Level 4 program that I am
-                        currently pursuing. </p>
+                <div class="col-4 text-white border border-white text-center">
+                    <p>Tic tac toe</p>
+                    <a href="">
+                        <img src="/img/boter kaas en eieren.png" alt="" class="img-fluid">
+                    </a>
                 </div>
-                <div class="col-4 text-white border border-white">
-                    <p>Work experience</p>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4 text-white border border-white text-center">
+                    <p>Webcataloges</p>
+                    <a href="">
+                        <img src="/img/webcatalog-screenshot.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-4 text-white border border-white text-center">
+                    <p>Dashboard</p>
+                    <a href="">
+                        <img src="/img/dashboard.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        
 
-                    <p> I have gained a lot of work experience, ranging from working in the hospitality industry as a cook
-                        to being employed in various retail positions. This diversity of experiences has acquainted me with
-                        different work environments. My career began with a paper route, but I didn't continue it for long.
-                        Afterwards, I started working in supermarkets as a regular employee. Subsequently, I also worked in
-                        the hospitality industry and spent some time in the kitchen. During my school internship, I had the
-                        opportunity to work at my internship company, which appealed to me due to my preference for this
-                        field of work. Unfortunately, during this job, I had to perform various other tasks as well. Then, I
-                        got the opportunity to work elsewhere and return to a retail environment as an employee, which I
-                        also did.</p>
-                <div class="col-2">
+        <div class="container-fluid p-5">
+            <div class="row p-5">
+                <div class="col-12 "></div>
+            </div>
+            <div class="row p-5">
+                <div class="col-12"></div>
+            </div>
+        </div>
+
+
+        <section id="section3" class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white text-center">Contact</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center gp-3">
+                    <a href="https://www.instagram.com" class="text-decoration-none text-white mx-3">
+                        <i class="bi bi-instagram fs-1"></i>
+                    </a>
+    
+    
+                    <a href="https://discord.com" class="text-decoration-none text-white mx-3">
+                        <i class="bi bi-discord fs-1"></i>
+                    </a>
+    
+                    <a href="https://twitter.com" class="text-decoration-none text-white mx-3">
+                        <i class="bi bi-twitter-x fs-1"></i>
+                    </a>
+                    
                 </div>
             </div>
         </div>
     </main>
 
-
     <footer>
-
+        <!-- Footer content here -->
     </footer>
+
+    <script src="/javascript/main.js"></script>
 </body>
 
 </html>

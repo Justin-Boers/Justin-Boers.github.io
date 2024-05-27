@@ -1,10 +1,8 @@
-.background-image {
+.bg-custom {
     background-image: url('/img/thumb-1920-1083878.png');
-    background-size: cover; /* Achtergrondafbeelding past zich aan aan de grootte van het element */
-    background-position: center; /* Achtergrondafbeelding blijft gecentreerd */
-    height: 750px; /* Pas de hoogte aan zoals gewenst */
-    color: white; /* Tekstkleur aanpassen zodat deze leesbaar is op de afbeelding */
-
+    background-size: cover;
+    background-position: center;
+    height: 750px;
 }
 
 .about-me{

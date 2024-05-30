@@ -16,31 +16,76 @@
 </head>
 
 <body class="bg-black m-0 p-0">
-    <header>
-        <div class="container-fluid bg-black">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-5">
-                    <span class="text-danger fs-1">Justin</span>
-                    <span class="text-white fs-1">Boers</span>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="#">JustinBoers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon color-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About me</button>
+                        <br>
+                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('skills')">Skills</button>
+                        <br>
+                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('projects')">Projects</button>
+                        <br>
+                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('socials')">Socials</button>
+                    </ul>
                 </div>
-                <div class="col-5 d-flex flex-direction-row justify-content-center align-items-center fs-6">
-                    <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About
-                        me</button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <button class="btn btn-primary bg-black border-0"
-                        onclick="scrollToSection('skills')">Skills</button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <button class="btn btn-primary bg-black border-0"
-                        onclick="scrollToSection('projects')">Projects</button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <button class="btn btn-primary bg-black border-0"
-                        onclick="scrollToSection('socials')">Socials</button>
-                </div>
-                <div class="col"></div>
             </div>
-        </div>
-    </header>
+        </nav>
+    </div>
+
+    <!-- <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="#">Watchanime</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon color-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Genre's
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <button class="btn btn-primary border-0" onclick="scrollToSection('mostPopulair')">Most populair</button>
+                                <br>
+                                <button class="btn btn-primary border-0" onclick="scrollToSection('Sport')">Sport</button>
+                                <br>
+                                <button class="btn btn-primary border-0" onclick="scrollToSection('Action')">Action</button>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Login/Register
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/server/public/html/login.html">Login</a></li>
+                                <li><a class="dropdown-item" href="/server/public/html/register.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
 
 
     <main>
@@ -72,7 +117,7 @@
 
         <!-- ======= About Section ======= -->
         <section id="about">
-            <div class="container border-1 border-white">
+            <div class="container border border-white rounded p-3">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="title-box text-center">
@@ -97,10 +142,8 @@
                                         <div class="col-sm-6 col-md-7">
                                             <div class="about-info text-white">
                                                 <p><span class="title-s">Name: </span> <span>Justin Boers</span></p>
-                                                <p><span class="title-s">Profile: </span> <span>full stack
-                                                        developer</span></p>
-                                                <p><span class="title-s">Email: </span> <span>Jboers317@gmail.com</span>
-                                                </p>
+                                                <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
+                                                <p><span class="title-s">Email: </span> <span>Jboers317@gmail.com</span></p>
                                                 <p><span class="title-s">Phone: </span> <span>(06) 15338357</span></p>
                                             </div>
                                         </div>
@@ -109,24 +152,16 @@
                                 <div class="col-md-6 text-white">
                                     <div class="about-me pt-4 pt-md-0">
                                         <p>
-                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
-                                            arcu erat, accumsan id
-                                            imperdiet et, porttitor
-                                            at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non
-                                            nisi. Nulla
+                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                                            imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
                                             porttitor accumsan tincidunt.
                                         </p>
                                         <p>
-                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-                                            suscipit tortor eget felis
-                                            porttitor volutpat. Vestibulum
-                                            ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
                                         </p>
                                         <p>
-                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia
-                                            in, elementum id enim.
-                                            Nulla porttitor accumsan
-                                            tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                                         </p>
                                     </div>
                                 </div>
@@ -136,6 +171,7 @@
                 </div>
             </div>
         </section><!-- End About Section -->
+        
 
         <div class="container-fluid p-5">
             <div class="row p-5">
@@ -423,7 +459,7 @@
         </div>
 
 
-        <section id="section3" class="section">
+        <section id="socials" class="section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">

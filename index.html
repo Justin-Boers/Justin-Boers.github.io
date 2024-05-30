@@ -19,7 +19,8 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand text-danger" href="#">JustinBoers</a>
+                <button class="btn btn-primary bg-black text-danger border-0" onclick="scrollToSection('main')">Justin
+                    Boers</button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -27,78 +28,41 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About me</button>
+                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About
+                            me</button>
                         <br>
-                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('skills')">Skills</button>
+                        <button class="btn btn-primary bg-black border-0"
+                            onclick="scrollToSection('skills')">Skills</button>
                         <br>
-                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('projects')">Projects</button>
+                        <button class="btn btn-primary bg-black border-0"
+                            onclick="scrollToSection('projects')">Projects</button>
                         <br>
-                        <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('socials')">Socials</button>
+                        <button class="btn btn-primary bg-black border-0"
+                            onclick="scrollToSection('socials')">Socials</button>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 
-    <!-- <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand text-danger" href="#">Watchanime</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon color-white"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Genre's
-                            </a>
-                            <ul class="dropdown-menu bg-dark">
-                                <button class="btn btn-primary border-0" onclick="scrollToSection('mostPopulair')">Most populair</button>
-                                <br>
-                                <button class="btn btn-primary border-0" onclick="scrollToSection('Sport')">Sport</button>
-                                <br>
-                                <button class="btn btn-primary border-0" onclick="scrollToSection('Action')">Action</button>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Login/Register
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/server/public/html/login.html">Login</a></li>
-                                <li><a class="dropdown-item" href="/server/public/html/register.html">Register</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div> -->
-
-
-
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 position-relative bg-custom">
-                    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-                        <h1>Justin Boers</h1>
-                        <p>Software Developer</p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active position-relative">
+                        <img src="/img/thumb-1920-1083878.png" class="d-flex w-100" alt="...">
+                        <div
+                            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                            <div class="text-center">
+                                <h2 class="text-white">Justin Boers</h2>
+                                <h2 class="text-white">Software Developer</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="container-fluid p-5">
             <div class="row p-5">
@@ -115,7 +79,6 @@
             </div>
         </div>
 
-        <!-- ======= About Section ======= -->
         <section id="about">
             <div class="container border border-white rounded p-3">
                 <div class="row">
@@ -135,15 +98,16 @@
                                     <div class="row">
                                         <div class="col-sm-6 col-md-5">
                                             <div class="about-img">
-                                                <img src=""
-                                                    class="img-fluid rounded b-shadow-a" alt="">
+                                                <img src="" class="img-fluid rounded b-shadow-a" alt="">
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-7">
                                             <div class="about-info text-white">
                                                 <p><span class="title-s">Name: </span> <span>Justin Boers</span></p>
-                                                <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                                                <p><span class="title-s">Email: </span> <span>Jboers317@gmail.com</span></p>
+                                                <p><span class="title-s">Profile: </span> <span>full stack
+                                                        developer</span></p>
+                                                <p><span class="title-s">Email: </span> <span>Jboers317@gmail.com</span>
+                                                </p>
                                                 <p><span class="title-s">Phone: </span> <span>(06) 15338357</span></p>
                                             </div>
                                         </div>
@@ -152,16 +116,22 @@
                                 <div class="col-md-6 text-white">
                                     <div class="about-me pt-4 pt-md-0">
                                         <p>
-                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                            imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
+                                            arcu erat, accumsan id
+                                            imperdiet et, porttitor at sem. Praesent sapien massa, convallis a
+                                            pellentesque nec, egestas non nisi. Nulla
                                             porttitor accumsan tincidunt.
                                         </p>
                                         <p>
-                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+                                            suscipit tortor eget felis
+                                            porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed
+                                            sit amet dui. porttitor at sem.
                                         </p>
                                         <p>
-                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia
+                                            in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit
+                                            aliquet elit, eget tincidunt nibh pulvinar a.
                                         </p>
                                     </div>
                                 </div>
@@ -170,8 +140,8 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End About Section -->
-        
+        </section>
+
 
         <div class="container-fluid p-5">
             <div class="row p-5">
@@ -299,7 +269,7 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Services Section -->
+        </section>
 
 
         <div class="container-fluid p-5">
@@ -406,47 +376,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            </div>
-        </section><!-- End Portfolio Section -->
 
-
-
-        <!-- <div class="container-fluid">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4 text-white border border-white text-center">
-                    <p>Higher lower</p>
-                    <a href="">
-                        <img src="/img/higer lower.png" alt="" class="img-fluid">
-                    </a> 
-                </div>
-                <div class="col-4 text-white border border-white text-center">
-                    <p>Tic tac toe</p>
-                    <a href="">
-                        <img src="/img/boter kaas en eieren.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4 text-white border border-white text-center">
-                    <p>Webcataloges</p>
-                    <a href="">
-                        <img src="/img/webcatalog-screenshot.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-4 text-white border border-white text-center">
-                    <p>Dashboard</p>
-                    <a href="">
-                        <img src="/img/dashboard.png" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div> -->
+        </section>
 
 
         <div class="container-fluid p-5">
@@ -471,16 +403,16 @@
                         <a href="https://www.instagram.com" class="text-decoration-none text-white mx-3">
                             <i class="bi bi-instagram fs-1"></i>
                         </a>
-    
-    
+
+
                         <a href="https://discord.com" class="text-decoration-none text-white mx-3">
                             <i class="bi bi-discord fs-1"></i>
                         </a>
-    
+
                         <a href="https://twitter.com" class="text-decoration-none text-white mx-3">
                             <i class="bi bi-twitter-x fs-1"></i>
                         </a>
-    
+
                     </div>
                 </div>
             </div>

@@ -4,3 +4,10 @@ function scrollToSection(sectionId) {
         section.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+//explenation button
+const btnOne = document.querySelector('.button1');
+
+btnOne.addEventListener('click', function() {
+    alert('Button clicked!');
+});

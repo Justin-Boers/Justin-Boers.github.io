@@ -29,20 +29,24 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About me</button>
+                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About
+                                me</button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('skills')">Skills</button>
+                            <button class="btn btn-primary bg-black border-0"
+                                onclick="scrollToSection('skills')">Skills</button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('projects')">Projects</button>
+                            <button class="btn btn-primary bg-black border-0"
+                                onclick="scrollToSection('projects')">Projects</button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('socials')">Socials</button>
+                            <button class="btn btn-primary bg-black border-0"
+                                onclick="scrollToSection('socials')">Socials</button>
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
         </nav>
     </div>
@@ -305,81 +309,162 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="https://justin-boers.github.io/Higher-Lower/">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Hoger lager</p>
-                                <button class="project1">explanation</button>
+                                <h2 class="fs-4">Hoger lager</h2>
+                                <button class="project1 btn border text-white border-white">explanation</button>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="https://justin-boers.github.io/Escaperoom/">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Escape Room</p>
-                                <button class="project2">explanation</button>
+                                <h2 class="fs-4">Escape Room</h2>
+                                <button class="project2 btn border text-white border-white">explanation</button>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="https://justin-boers.github.io/Boter-Kaas-Eieren/">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Boter Kaas en Eieren</p>
-                                <button class="project3">explanation</button>
+                                <h2 class="fs-4">Boter Kaas en Eieren</h2>
+                                <button class="project3 btn border text-white border-white">explanation</button>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="https://justin-boers.github.io/Calculator/">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Calculater</p>
-                                <button class="project4">explanation</button>
+                                <h2 class="fs-4">Calculater</h2>
+                                <button class="project4 btn border text-white border-white">explanation</button>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="https://justin-boers.github.io/Webcatalog/">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Webcatalogus</p>
-                                <button class="project5">explanation</button>
+                                <h2 class="fs-4">Webcatalogus</h2>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn project6 btn border text-white border-white"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Explanation
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5 text-black" id="staticBackdropLabel">
+                                                    Explanation</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-black text-decoration-none">
+                                                <h2>Explanation about this project</h2>
+                                                <br>
+                                                <b2></b2>
+                                                <h2>Languages</h2>
+                                                <span>(HTML)</span> <span>(JAVASCRIPT)</span> <span>(CSS)</span>
+                                                <span>(NODEJS)</span>
+                                                <br>
+                                                <br>
+                                                <h2>Description</h2>
+                                                <p>This is an application</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="project5 btn border text-white border-white">explanation</button>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-md-4">
-                        <div class="work-box border border-white rounded">
+                        <div class="work-box border border-white rounded p-2">
                             <a href="">
                                 <div class="work-img">
                                     <img src="img/dashboard.png" alt="" class="img-fluid">
                                 </div>
                             </a>
                             <div class="work-content text-white text-center">
-                                <p>Dashboard</p>
-                                <button class="project6">explanation</button>
+                                <h2 class="fs-4">Dashboard</h2>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn project6 btn border text-white border-white"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Explanation
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5 text-black" id="staticBackdropLabel">
+                                                    Explanation</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-black text-decoration-none">
+                                                <h2>Explanation about this project</h2>
+                                                <br>
+                                                <b2></b2>
+                                                <h2>Languages</h2>
+                                                <span>(HTML)</span> <span>(JAVASCRIPT)</span> <span>(CSS)</span>
+                                                <span>(NODEJS)</span>
+                                                <br>
+                                                <br>
+                                                <h2>Description</h2>
+                                                <p>This is an application</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -397,6 +482,8 @@
                 <div class="col-12"></div>
             </div>
         </div>
+
+
 
 
         <section id="socials" class="section">

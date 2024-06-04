@@ -6,7 +6,7 @@ function scrollToSection(sectionId) {
 }
 
 //explenation button
-const btnOne = document.querySelector('.button1');
+const btnOne = document.querySelector('.project1');
 
 btnOne.addEventListener('click', function() {
     alert('Button clicked!');

@@ -19,8 +19,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
-                <button class="btn btn-primary bg-black text-danger border-0" onclick="scrollToSection('main')">Justin
-                    Boers</button>
+                <h2><span class="text-danger">Justin</span><span class="text-white">Boers</span></h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,22 +27,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0" onclick="scrollToSection('about')">About
-                                me</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0"
-                                onclick="scrollToSection('skills')">Skills</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0"
-                                onclick="scrollToSection('projects')">Projects</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary bg-black border-0"
-                                onclick="scrollToSection('socials')">Socials</button>
-                        </li>
+                        <li><a href="#about" class="btn btn-primary bg-black border-0">About</a></li>
+                        <li><a href="#skills" class="btn btn-primary bg-black border-0">Skills</a></li>
+                        <li><a href="#projects" class="btn btn-primary bg-black border-0">Projects</a></li>
+                        <li><a href="#about-portfolio" class="btn btn-primary bg-black border-0">About portfolio</a></li>
+                        <li><a href="#socials" class="btn btn-primary bg-black border-0">Socials</a></li>
                     </ul>
                 </div>
 
@@ -85,7 +73,7 @@
             </div>
         </div>
 
-        <section id="about">
+        <div class="about" id="about">
             <div class="container border border-white rounded p-3">
                 <div class="row">
                     <div class="col-sm-12">
@@ -104,7 +92,8 @@
                                     <div class="row">
                                         <div class="col-sm-6 col-md-5">
                                             <div class="about-img">
-                                                <img src="img/dashboard.png" class="img-fluid rounded b-shadow-a" alt="">
+                                                <img src="img/dashboard.png" class="img-fluid rounded b-shadow-a"
+                                                    alt="">
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-md-7">
@@ -146,7 +135,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <div class="container-fluid p-5">
@@ -164,7 +153,7 @@
             </div>
         </div>
 
-        <section id="skills">
+        <div class="skills" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -180,102 +169,73 @@
                     <div class="col-md-4">
                         <div class="skills-box">
                             <div class="skills-ico">
-                                <i class="bi bi-filetype-js text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-filetype-js text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div>
                                 <h2 class="text-white text-center">JAVASCRIPT</h2>
-                                <p class="text-center text-white">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div>
                             <div>
-                                <i class="bi bi-filetype-html text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-filetype-html text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div class="skills-content">
                                 <h2 class="s-title text-white text-center">HTML</h2>
-                                <p class="s-description text-white text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skills-box">
                             <div class="skills-ico">
-                                <i class="bi bi-filetype-css text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-filetype-css text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div class="skills-content">
                                 <h2 class="s-title text-white text-center">CSS</h2>
-                                <p class="s-description text-white text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skills-box">
                             <div class="skills-ico">
-                                <i class="bi bi-bootstrap text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-bootstrap text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div class="skills-content">
                                 <h2 class="s-title text-white text-center">BOOTSTRAP</h2>
-                                <p class="s-description text-center text-white">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skills-box">
                             <div class="skills-ico">
-                                <i class="bi bi-filetype-php text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-filetype-php text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div class="skills-content">
                                 <h2 class="s-title text-white text-center">PHP</h2>
-                                <p class="s-description text-center text-white">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skills-box">
                             <div class="skills-ico">
-                                <i class="bi bi-filetype-java text-white fs-3 d-flex justify-content-center"></i>
+                                <i class="bi bi-filetype-java text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                             <div class="skills-content">
                                 <h2 class="s-title text-white text-center">JAVA</h2>
-                                <p class="s-description text-center text-white">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem
-                                    fugiat! Quia,
-                                    provident vitae! Magni
-                                    tempora perferendis eum non provident.
-                                </p>
+                                <i class="bi bi-check text-white fs-1 d-flex justify-content-center"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+
 
 
         <div class="container-fluid p-5">
@@ -295,8 +255,7 @@
 
 
 
-
-        <section id="projects">
+        <div class="projects" id="projects">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -599,9 +558,59 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-        </section>
+        <div class="container-fluid p-5">
+            <div class="row p-5">
+                <div class="col-12 "></div>
+            </div>
+            <div class="row p-5">
+                <div class="col-12"></div>
+            </div>
+        </div>
 
+        <div class="about-portfolio" id="about-portfolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-white text-center">About portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card bg-black border text-white border-white" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Progress</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card bg-black border text-white border-white" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Program languages(technics)</h5>
+                            <ul>
+                                <li>
+                                    <p>Html</p>
+                                </li>
+                                <li>
+                                    <p>Bootstrap</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card bg-black border text-white border-white" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Design</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="container-fluid p-5">
             <div class="row p-5">
@@ -613,9 +622,7 @@
         </div>
 
 
-
-
-        <section id="socials" class="section">
+        <div class="socials" id="socials">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -640,12 +647,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-
-    <footer>
-        <!-- Footer content here -->
-    </footer>
 
     <script src="javascript/main.js"></script>
 </body>
